@@ -12,7 +12,7 @@ import (
 	"golang.org/x/oauth2/google"
 )
 
-const (
+var (
 	baseURL = "https://sheets.googleapis.com/v4"
 
 	// Scope is the API scope for viewing and managing your Google Spreadsheet data.
